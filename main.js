@@ -2,7 +2,7 @@ console.log("Main.js working")
 
 const populate = async (value, currency) => {
     let myStr = ""
-    url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_S2qZx3rKTJw8qo1X2BazZdYPnrPHB7X39ASX9FHV&base_currency=" + currency
+    url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_ujLbdtv09LnUI5DDzzbYQtmtwXFrgbRuB9AYbmwF&base_currency=" + currency
     let response = await fetch(url)
     let rJson = await response.json()
     document.querySelector(".output").style.display = "block"
